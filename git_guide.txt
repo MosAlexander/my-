@@ -9,3 +9,4 @@ git push - отправка в репозиторий
 gitignore - файл куда можно помещать папки и файлы --- они не будут коммитится 
 gitkeep - пометка пустой папки 
 git checkout -b first-branch ---- создание новой ветки
+git push  --set-upstream origin first-branch - создание новой папки на github
