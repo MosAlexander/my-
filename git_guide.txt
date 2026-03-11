@@ -1,0 +1,3 @@
+ git config --global user.name "MosAlexander"
+git config --global user.email iam26rus@gmail.com                                      
+ git init
