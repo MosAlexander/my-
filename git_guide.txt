@@ -1,3 +1,7 @@
- git config --global user.name "MosAlexander"
+git config --global user.name "MosAlexander"
 git config --global user.email iam26rus@gmail.com                                      
- git init
+git init - команда настрйоки 
+git status - проверка статуса   
+git add - добавление статуса
+git add . - доавление нескольким файлам и папкам статуса 
+git commit -m "add имя файла(папки)" - пометить 
