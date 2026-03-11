@@ -16,5 +16,7 @@ git checkout -b first-branch ---- создание новой ветки
 git push  --set-upstream origin first-branch - создание новой папки на github создается в первый раз !!!
 git commit -m "add имя ветки + название файла" - когда ветка создана коммитится этой командой + git push 
 >>>>>>> first-branch
+git checkout main - переход на основную ветку
+git merge first-branch - слияние с основной веткой 
 git branch -d first branch - удаление ветки локально 
 git push --delete origin first-branch - удаление ветки на github
