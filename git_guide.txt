@@ -7,5 +7,14 @@ git add . - доавление нескольким файлам и папкам
 git commit -m "add имя файла(папки)" - пометить 
 git push - отправка в репозиторий 
 gitignore - файл куда можно помещать папки и файлы --- они не будут коммитится 
+<<<<<<< HEAD
 gitkeep - пометка пустой папки
 git checkout main - возврат на основную ветку 
+=======
+gitkeep - пометка пустой папки 
+git checkout -b first-branch ---- создание новой ветки
+git push  --set-upstream origin first-branch - создание новой папки на github создается в первый раз !!!
+git commit -m "add имя ветки + название файла" - когда ветка создана коммитится этой командой + git push 
+>>>>>>> first-branch
+git branch -d first branch - удаление ветки локально 
+git push --delete origin first-branch - удаление ветки на github
